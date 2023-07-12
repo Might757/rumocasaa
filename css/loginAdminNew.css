@@ -1,0 +1,105 @@
+#login-content {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    height: 250px;
+    box-shadow: 12px 12px 22px rgba(128, 128, 128, 0.336);
+    border: 1px solid rgba(128, 128, 128, 0.336);
+    z-index: 1!important;
+  }
+
+/*
+
+  #login-content {
+    display: none;
+    position: absolute;
+    background-color:rgb(250, 250, 250);
+    border-radius: 0;
+    right: 0;
+    width: 100%;
+    height: 260px;
+    left: 0px;
+    top: 450px;
+    z-index: 2000 !important;
+  }
+  */ 
+.form-control {
+  width: 80% !important;
+}
+#formGroupEmail>label {
+  left: -33% !important;
+}
+#formGroupEmail.label-animate>label {
+  top: 18px !important;
+  left: -35% !important;
+  font-size: 0.9em !important;
+  font-weight: 600 !important;
+}
+/* 691 x 627*/
+  .form-group>label {
+    top: 40px !important;
+    left: -30% !important;
+    position: relative !important;
+    background-color: white !important;
+    padding: 0px 5px 0px 5px !important;
+    font-size: 1.1em !important;
+    transition: 0.2s !important;
+    pointer-events:none !important;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 500 !important;
+  }
+  .form-group.label-animate>label {
+    top: 18px !important;
+    left: -33% !important;
+    font-size: 0.9em !important;
+    font-weight: 600 !important;
+  }
+
+   #submit {
+      background-color: #3ece33;
+      border-radius: 5px;
+      height: 35px;
+      padding: 0;
+      width: 125px;
+      float: center;
+      cursor: pointer;
+      color: rgba(255, 255, 255, 0.897);
+      transition: all ease-in-out 350ms;
+      border: none;
+      font-weight: 600;
+    }
+
+  #submit:hover,
+  #submit:focus {
+      background-color: transparent;
+      border: 1px solid rgb(41, 41, 41);
+      color: rgb(41, 41, 41);
+    }
+
+  .form-message-error{
+    color: #e00404;
+  }
+
+  .form-message-success{
+    color: #00ff00;
+  }
+
+  .login-error{
+    box-shadow: 0 0 5px #e00404;
+    transition: all ease-in-out 250ms;
+  }
+
+
+.nav_icons{
+  font-size: 100%;
+  margin-right: 5px;
+}
+@keyframes teste {
+   0% {top: 10px; opacity: 0%;}
+   100% {top: 0px; opacity: 100%;}
+}
+
+#form-message {
+  animation: teste 0.3s ease-in-out forwards !important;
+}
+

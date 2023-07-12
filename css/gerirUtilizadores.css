@@ -1,0 +1,98 @@
+#txtPesquisar{
+  margin-bottom: 15px;
+}
+.btn-pesquisar{
+  min-width: 35%;
+  height: 40px;
+  background-color:#262626;
+  border: none;
+  -moz-border-radius:12px;
+  -webkit-border-radius:12px;
+  border-radius:55px;
+  cursor:pointer;
+  color:#ffffff;
+  font-size:14px;
+  padding:4px 6px;
+  text-decoration:none;
+  transition: all ease-in-out 360ms;
+  margin-left: 165px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.btn-pesquisar:hover {
+  background-color:#04d107;
+  color:#050505;
+}
+.btn-pesquisar:active {
+  position:relative;
+  top:1px;
+}
+
+.display-error{
+  width: 100%;
+  display: none;
+}
+
+.table-top{
+  background: #1e1e1e;
+  color: white;
+  text-align: center;
+}
+.table-content{
+  background: #262626;
+  text-align: center;
+  color: white;
+}
+tbody tr{
+  transition: all ease-in-out 250ms;
+}
+tbody tr:hover{
+  background: #212121;
+  color: #04d107;
+}
+button:focus { outline: none; }
+
+.switch-forms{
+  margin-left:80%;
+  font-size: 120%;
+  color:#111111;
+}
+
+.switch-forms:hover{
+  text-decoration: none;
+  font-size: 122%;
+  color: #04d107;
+}
+
+.form-switch-icon{
+  color: #04d107;
+}
+#form-add-utilizador, #form-switch-procurar, #form-edit-utilizador{
+  display: none;
+}
+
+.edit-button{
+  color: #04d107;
+}
+.delete-button{
+  color: #c10707;
+}
+
+.form-editar-utilizador{
+  display: none;
+}
+@media all and (max-width: 572px) and (min-width: 200px) {
+  .btn-pesquisar{
+    margin-left: 12%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 573px) and (max-width: 1124px) {
+  .btn-pesquisar{
+    margin-left: 23%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}

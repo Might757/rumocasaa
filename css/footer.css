@@ -1,0 +1,62 @@
+
+.footer-separador {
+  background-color: #00b300;
+}
+
+.footer-siga{
+  margin-top: 8px;
+  font-size: 112%;
+  color:#e6e6e6;
+}
+
+.fb-icon{
+  margin-top: 3px;
+  color: black;
+  font-size: 145%;
+  padding-right: 2px;
+}
+
+.fb-text{
+    color: black;
+}
+
+.fb-txt{
+  color: #e6e6e6;
+  font-weight: 600;
+  font-size: 110%;
+  transition: all ease-in-out 260ms;
+}
+.fb-txt:hover{
+  color: black;
+  font-size: 120%;
+  transition: all ease-in-out 290ms;
+}
+
+.logo-footer{
+	height: 100px;
+	width: 180px;
+}
+
+#footerREBM{
+  margin-left: 30%;
+}
+
+#iefp{
+	margin-left: 30%;
+}
+
+@media only screen and (max-width: 810px){
+	.logo-footer{
+		height: 100%;
+		width: 100%;
+	}
+	#iefp{
+		margin-left: 0%;
+  }
+  
+  #footerREBM{
+    margin-left: 0%;
+  }
+	
+}
+	

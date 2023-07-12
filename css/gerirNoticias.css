@@ -1,0 +1,215 @@
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+#news-title {
+  color:#262626;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-shadow: 1px 1px 1px;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+.display-error{
+  width: 55%;
+  margin: auto;
+  padding: 2;
+  text-align:left;
+  margin-bottom: 2%;
+  display: none;
+}
+#txtPesquisar{
+  margin-bottom: 15px;
+}
+.btn-pesquisar, #btn-criar, #btn-edit{
+  width: 25%;
+  min-width: 25%;
+  height: 40px;
+  background-color:#262626;
+  border: none;
+  -moz-border-radius:12px;
+  -webkit-border-radius:12px;
+  border-radius:55px;
+  cursor:pointer;
+  color:#ffffff;
+  font-size:14px;
+  padding:4px 6px;
+  text-decoration:none;
+  transition: all ease-in-out 360ms;
+  margin-left: 273px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.btn-pesquisar:hover, #btn-criar:hover, #btn-edit:hover{
+  background-color:#04d107;
+  color:#050505;
+}
+.btn-pesquisar:active {
+  position:relative;
+  top:1px;
+}
+
+.display-error{
+  width: 100%;
+  display: none;
+}
+
+.table-top{
+  background: #1e1e1e;
+  color: white;
+  text-align: center;
+}
+.table-content{
+  background: #262626;
+  text-align: center;
+  color: white;
+}
+tbody tr{
+  transition: all ease-in-out 250ms;
+}
+tbody tr:hover{
+  background: #212121;
+  color: #04d107;
+}
+
+tbody tr a .linked-in-table{
+  text-decoration: none;
+  color: white;
+  transition: all ease-in-out 250ms;
+}
+tbody tr a .linked-in-table:hover{
+  color: #04d107;
+}
+
+button:focus {
+  outline: none;
+}
+
+#form-switch-procurar{
+  margin-left:83%;
+  font-size: 118%;
+  color:#111111;
+}
+
+#form-switch-adicionar{
+  margin-left: 87%;
+  font-size: 118%;
+  color:#111111;
+}
+
+#form-switch-adicionar:hover, #form-switch-adicionar:hover{
+  text-decoration: none;
+  font-size: 121%;
+  color: #04d107;
+}
+
+.form-switch-icon{
+  color: #04d107;
+}
+
+
+#form-criar-noticia, #form-switch-procurar, #form-edit-utilizador, #form-editar-noticia{
+  display: none;
+}
+
+.edit-button{
+  color: #04d107;
+}
+.delete-button{
+  color: #c10707;
+}
+
+.form-editar-utilizador{
+  display: none;
+}
+
+.linked-in-table{
+  text-decoration: none;
+  color: white;
+  transition: all ease-in-out 250ms;
+}
+
+.linked-in-table:hover{
+  color: #04d107;
+}
+
+@media all and (max-width: 399px) and (min-width: 10px) {
+
+  .btn-pesquisar, #btn-criar, #btn-edit{
+    width: 100%;
+    height: 45px;
+    background-color:#262626;
+    border: none;
+    -moz-border-radius:12px;
+    -webkit-border-radius:12px;
+    border-radius:55px;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:14px;
+    padding:4px 6px;
+    text-decoration:none;
+    transition: all ease-in-out 360ms;
+    margin-left: 0%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media all and (max-width: 1029px) and (min-width: 400px) {
+  .btn-pesquisar, #btn-criar, #btn-edit{
+    min-width: 65%;
+    max-width: 70%;
+    height: 45px;
+    background-color:#262626;
+    border: none;
+    -moz-border-radius:12px;
+    -webkit-border-radius:12px;
+    border-radius:55px;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:14px;
+    padding:4px 6px;
+    text-decoration:none;
+    transition: all ease-in-out 360ms;
+    margin-left: 18%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 1030px) and (max-width: 1920px) {
+
+  .btn-pesquisar, #btn-criar, #btn-edit{
+    min-width: 35%;
+    max-width: 40%;
+    height: 45px;
+    background-color:#262626;
+    border: none;
+    -moz-border-radius:12px;
+    -webkit-border-radius:12px;
+    border-radius:55px;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:14px;
+    padding:4px 6px;
+    text-decoration:none;
+    transition: all ease-in-out 360ms;
+    margin-left: 32%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}

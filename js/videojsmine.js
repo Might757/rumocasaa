@@ -1,0 +1,1 @@
+import '@videojs/themes/dist/forest/index.css';

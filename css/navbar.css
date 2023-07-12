@@ -1,0 +1,145 @@
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: #262626;
+  text-align: left;
+  height: 43px;
+  line-height: 43px;
+  
+}
+@media (min-width: 992px) {
+  .animate {
+    animation-duration: 0.3s;
+    -webkit-animation-duration: 0.3s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+  100% {
+    transform:translateY(0rem);
+    opacity: 1;
+  }
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes slideIn {
+  0% {
+    -webkit-transform: transform;
+    -webkit-opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    -webkit-opacity: 1;
+  }
+  0% {
+    -webkit-transform: translateY(1rem);
+    -webkit-opacity: 0;
+  }
+}
+
+.slideIn {
+  -webkit-animation-name: slideIn;
+  animation-name: slideIn;
+}
+nav {
+  z-index: 1000;
+}
+.nav-item {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+.navbar-brand {
+  max-width: 100%;
+}
+.menu {
+  margin: 0;
+  padding: 0;
+  font-size: 95%;
+}
+.itemCinzento {
+  color: grey !important;
+}
+.itemCinzento:hover {
+  color: rgb(59, 59, 59) !important;
+}
+.nav-logo{
+  font-size: 155%;
+  color: white;
+  line-height: 40px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 25px;
+  margin-bottom: 7px;
+  transition: all ease-in-out 250ms;
+}
+
+.nav-logo:hover{
+  font-size: 165%;
+  cursor: default;
+  color: #04d107;
+  transition: all ease-in-out 280ms;
+}
+/* .nav-logo img{
+  float: left;
+  height: 40px;
+  min-width: 114px;
+  max-width: 116px;
+  padding: 3px 25px 5px 5px;
+} */
+
+.menu a {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  margin: 0 4px;
+  line-height: 43px;
+  clear: right;
+}
+
+.menu a:hover {
+  color: #04d107;
+  transition: all ease-in-out 250ms;
+}
+
+.nav label {
+  font-size: 28px;
+  color: white;
+  display: none;
+  width: 26px;
+  position: relative;
+  float: right;
+  margin-right: 1%;
+}
+
+.nav label:hover {
+  color: #04d107;
+  transition: all ease-in-out 250ms;
+}
+#toggle {
+  display: none;
+  float: right;
+  transition: all ease-in-out 250ms;
+}
+
+
+
+#login-trigger {
+  marker: none !important;
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 600 !important;
+  color: grey;
+  font-size: 15px;
+  z-index: 1000 !important;
+}
